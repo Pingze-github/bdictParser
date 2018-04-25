@@ -3,15 +3,15 @@
 
 ### 使用
 ```
-from bdictParser import bdictParser
+from bdictParser import bdict_parser
 
 # 从文件
-words = bdictParser.parse_file('热门游戏.bdict')
+words = bdict_parser.parse_file('热门游戏.bdict')
 print(words)
 
 # 从数据
 with open('热门游戏.bdict') as f:
-    words = bdictParser.parse(f.read())
+    words = bdict_parser.parse(f.read())
 print(words)
 ```
 
